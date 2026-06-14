@@ -25,6 +25,7 @@ function getHtmlEntries() {
 
 export default {
     root: "src",
+    base: "/nagomi/",
     build: {
         rolldownOptions: {
             input: getHtmlEntries(),
