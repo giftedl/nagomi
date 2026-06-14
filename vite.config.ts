@@ -29,7 +29,7 @@ export default {
         rolldownOptions: {
             input: getHtmlEntries(),
             output: {
-                dir: "dist"
+                dir: "docs"
             },
         }
     }
